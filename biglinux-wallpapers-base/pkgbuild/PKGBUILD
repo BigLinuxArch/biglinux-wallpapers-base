@@ -1,13 +1,13 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-wallpapers-base
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.11.11
+pkgrel=0324
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/biglinux-wallpapers-base"
 pkgdesc="Extra wallpapers to BigLinux"
-source=("git+https://github.com/biglinux/biglinux-wallpapers-base.git")
+source=("git+https://github.com/biglinux/biglinux-wallpapers-base.git#branch=stable-2024-11-11_00-22")
 makedepends=("git")
 md5sums=(SKIP)
 
